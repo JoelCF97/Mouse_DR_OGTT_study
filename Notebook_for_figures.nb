@@ -15066,7 +15066,8 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{"Export", "[", 
   RowBox[{
-   RowBox[{"NotebookDirectory", "<>", "\"\<FigureS1.pdf\>\""}], ",", 
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], "<>", "\"\<FigureS1.pdf\>\""}], ",", 
    "bodyWeightsFigFinal"}], "]"}]], "Input",
  CellChangeTimes->{{3.947131669663288*^9, 3.947131688414236*^9}, 
    3.947132027531622*^9, {3.9497359738477135`*^9, 3.949735975793604*^9}, {
@@ -15588,4 +15589,5 @@ Cell[676361, 15280, 1012, 26, 66, "Input",ExpressionUUID->"ea87cd49-a0be-d544-94
 }
 ]
 *)
+
 
